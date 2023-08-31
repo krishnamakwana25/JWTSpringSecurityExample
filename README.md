@@ -18,37 +18,37 @@ To Run This JWT Springboot Project, You can either extract the project from ZIP 
 
 
 **To Test the REST API you can use POSTMAN tool**
-
-POST API - To Register The User
-Select POST http method from postman
-Write this url:- http://localhost:8081/auth/createuser
-Click on body tab and select Row then json
-  where we need to pass data in below form
+______________________________________________________________________________
+**To register the User - through POST http method**
+1. POST API - To Register The User
+2. Select POST http method from postman
+3. Write this url:- http://localhost:8081/auth/createuser
+4. Click on body tab and select Row then json
+   - where we need to pass data in below form
     {
     "name":"xyz",
     "email":"xyz@gmail.com",
     "password":"123",
     "about":"Hello,I have register here..!"
 }
-Now you can hit the send button to register the user.
+5. Now you can hit the send button to register the user.
 
-To Get the JWT Token from rest API - through POST http method
-Select POST http method from postman
-Write this url http://localhost:8081/auth/login
-Click on body tab and from there select raw then use json format
-You can pass json in raw {
+**To Get the JWT Token from rest API - through POST http method**
+1. Select POST http method from postman
+2. Write this url http://localhost:8081/auth/login
+3. Click on body tab and from there select raw then use json format
+4. You can pass json in raw {
     "email":"xyz@gmail.com",
     "password":"123"
 }
-Now you can hit the send button to get JWT Token 
+5. Now you can hit the send button to get JWT Token 
 
-To Get the All Registered user - through GET http method
-Select GET http method from postman
-write this url http://localhost:8081/home/user
-Need to pass JWT TOKEN in Headers with Authorization key 
+**To Get the All Registered user - through GET http method**
+1. Select GET http method from postman
+2. write this url http://localhost:8081/home/user
+3. Need to pass JWT TOKEN in Headers with Authorization key 
     for ex:- Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJiaHVtaWthbWFrd2FuYUBnbWFpbC5jb20iLCJpYXQiOjE2OTM0NjIyMDksImV4cCI6MTY5MzQ4MDIwOX0.x3Gf7sa_bjEGNl0jfQPryuflgWhsKr2VdD07Pa43yg20SpEbvyQIrRoSzRV1jcg0YuAsAXORti9B-wipKsFkjA
-
-Now you can hit the send button to get All registered users list
+4. Now you can hit the send button to get All registered users list
 
 **To run the project without docker locally below steps you can follow :**
 
