@@ -46,7 +46,7 @@ ______________________________________________________________________________
 **To Get the All Registered user - through GET http method**
 1. Select GET http method from postman
 2. write this url http://localhost:8081/home/user
-3. Need to pass JWT TOKEN in Headers with Authorization key 
+3. Need to pass JWT TOKEN in Headers with Authorization key and value
     for ex:- Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJiaHVtaWthbWFrd2FuYUBnbWFpbC5jb20iLCJpYXQiOjE2OTM0NjIyMDksImV4cCI6MTY5MzQ4MDIwOX0.x3Gf7sa_bjEGNl0jfQPryuflgWhsKr2VdD07Pa43yg20SpEbvyQIrRoSzRV1jcg0YuAsAXORti9B-wipKsFkjA
 4. Now you can hit the send button to get All registered users list
 
