@@ -37,7 +37,7 @@ ______________________________________________________________________________
 1. Select POST http method from postman
 2. Write this url http://localhost:8081/auth/login
 3. Click on body tab and from there select raw then use json format
-4. You can pass json in raw {
+4. You can pass json data in raw {
     "email":"xyz@gmail.com",
     "password":"123"
 }
@@ -47,7 +47,7 @@ ______________________________________________________________________________
 1. Select GET http method from postman
 2. write this url http://localhost:8081/home/user
 3. Need to pass JWT TOKEN in Headers with Authorization key and value
-    for ex:- Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJiaHVtaWthbWFrd2FuYUBnbWFpbC5jb20iLCJpYXQiOjE2OTM0NjIyMDksImV4cCI6MTY5MzQ4MDIwOX0.x3Gf7sa_bjEGNl0jfQPryuflgWhsKr2VdD07Pa43yg20SpEbvyQIrRoSzRV1jcg0YuAsAXORti9B-wipKsFkjA
+    - for ex:- Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJiaHVtaWthbWFrd2FuYUBnbWFpbC5jb20iLCJpYXQiOjE2OTM0NjIyMDksImV4cCI6MTY5MzQ4MDIwOX0.x3Gf7sa_bjEGNl0jfQPryuflgWhsKr2VdD07Pa43yg20SpEbvyQIrRoSzRV1jcg0YuAsAXORti9B-wipKsFkjA
 4. Now you can hit the send button to get All registered users list
 
 **To run the project without docker locally below steps you can follow :**
