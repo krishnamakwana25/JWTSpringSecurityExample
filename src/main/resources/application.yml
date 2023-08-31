@@ -1,0 +1,41 @@
+server:
+  port: 8081
+spring:
+  dataSource:
+    url: jdbc:mysql://localhost:3307/dbjwt
+#    url: ${SPRING_DATASOURCE_URL}
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    initialization-mode: always
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+#server:
+#  port: 8081
+##spring:
+##  security:
+##    user:
+##      name: user
+##      password: user123
+#
+##database configuration
+#spring:
+#  datasource:
+#    url: ${SPRING_DATASOURCE_URL}
+#    username: root
+#    password: root
+#    driver-class-name: com.mysql.cj.jdbc.Driver #if not provided then spring automatically detect it and use it
+#    initialization-mode: always
+## jpa configuration
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.MySQLDialect
