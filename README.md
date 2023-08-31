@@ -44,10 +44,9 @@ Now you can hit the send button to get JWT Token
 
 To run the project without docker locally below steps you can follow :
 
-Import the project into Any IDE.
-Assuming to have MySQL database on local machine.
-You have to create a dbjwt database with this query create database dbjwt;
-To run the project locally need to change the application.yml configuration to this url: jdbc:mysql://localhost:3307/dbjwt
-Now you can build the project with mvn clean install command .
-Run the main JwtExampleApplication.
+1. Import the project into Any IDE.
+2. Assuming to have MySQL database on local machine.
+3. You have to create a dbjwt database with this query create database dbjwt;
+4. To run the project locally need to change the application.yml configuration to this url: jdbc:mysql://localhost:3307/dbjwt
+5. Now you can build the project with mvn clean install command .Run the main JwtExampleApplication.
 
