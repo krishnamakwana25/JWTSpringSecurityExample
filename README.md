@@ -1,5 +1,5 @@
 # JWTSpringSecurityExample
-Technology Stack used: Java, Springboot 3.1.3, MySql 8.1.0, Maven, Docker
+**Technology Stack used: Java, Springboot 3.1.3, MySql 8.1.0, Maven, Docker**
 
 To Run This JWT Springboot Project, You can either extract the project from ZIP or You can use Below github link to clone project and use below command to run and test
 
@@ -17,7 +17,7 @@ To Run This JWT Springboot Project, You can either extract the project from ZIP 
 
 
 
-To Test the REST API you can use POSTMAN tool
+**To Test the REST API you can use POSTMAN tool**
 
 POST API - To Register The User
 Select POST http method from postman
