@@ -42,7 +42,15 @@ You can pass json in raw {
 }
 Now you can hit the send button to get JWT Token 
 
-To run the project without docker locally below steps you can follow :
+To Get the All Registered user - through GET http method
+Select GET http method from postman
+write this url http://localhost:8081/home/user
+Need to pass JWT TOKEN in Headers with Authorization key 
+    for ex:- Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJiaHVtaWthbWFrd2FuYUBnbWFpbC5jb20iLCJpYXQiOjE2OTM0NjIyMDksImV4cCI6MTY5MzQ4MDIwOX0.x3Gf7sa_bjEGNl0jfQPryuflgWhsKr2VdD07Pa43yg20SpEbvyQIrRoSzRV1jcg0YuAsAXORti9B-wipKsFkjA
+
+Now you can hit the send button to get All registered users list
+
+**To run the project without docker locally below steps you can follow :**
 
 1. Import the project into Any IDE.
 2. Assuming to have MySQL database on local machine.
