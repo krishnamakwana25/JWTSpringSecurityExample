@@ -37,7 +37,7 @@ Select POST http method from postman
 Write this url http://localhost:8081/auth/login
 Click on body tab and from there select raw then use json format
 You can pass json in raw {
-    "email":"bhumikamakwana@gmail.com",
+    "email":"xyz@gmail.com",
     "password":"123"
 }
 Now you can hit the send button to get JWT Token 
